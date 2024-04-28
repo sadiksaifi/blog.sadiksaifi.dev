@@ -1,0 +1,29 @@
+{
+  "name": "blog-sadiksaifi-dev",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/mdx": "^2.3.1",
+    "@astrojs/rss": "^4.0.5",
+    "@astrojs/sitemap": "^3.1.4",
+    "@astrojs/tailwind": "^5.1.0",
+    "@tailwindcss/typography": "^0.5.13",
+    "astro": "^4.7.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "rehype-pretty-code": "^0.13.1",
+    "rehype-slug": "^6.0.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.4.5"
+  }
+}
