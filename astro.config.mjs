@@ -1,14 +1,15 @@
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
-import sitemap from "@astrojs/sitemap";
 import rehypePrettyCode from "rehype-pretty-code";
 import rehypeSlug from "rehype-slug";
+import robotsTxt from 'astro-robots-txt';
+import sitemap from 'astro-sitemap';
 
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://blog.sadiksaifi.dev",
   integrations: [
     mdx({
       syntaxHighlight: false,
@@ -23,6 +24,7 @@ export default defineConfig({
       ]
     }),
     sitemap(),
+    robotsTxt(),
     tailwind({ applyBaseStyles: false }),
   ],
 });
