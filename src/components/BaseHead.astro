@@ -1,6 +1,7 @@
 ---
 import '@/styles/global.css';
 import { ViewTransitions } from 'astro:transitions'
+import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
 
 interface Props {
 	title: string;
@@ -20,9 +21,7 @@ const { title, description, image = '/placeholder.jpg' } = Astro.props;
 <meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<GoogleFontsOptimizer url="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"></GoogleFontsOptimizer>
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />

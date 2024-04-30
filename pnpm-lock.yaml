@@ -29,6 +29,9 @@ importers:
       astro:
         specifier: ^4.7.0
         version: 4.7.0(@types/node@20.12.7)(typescript@5.4.5)
+      astro-google-fonts-optimizer:
+        specifier: ^0.2.2
+        version: 0.2.2
       astro-robots-txt:
         specifier: ^1.0.0
         version: 1.0.0
@@ -783,6 +786,9 @@ packages:
   astring@1.8.6:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
+
+  astro-google-fonts-optimizer@0.2.2:
+    resolution: {integrity: sha512-YQxp/ExF3NzUomAGuu1VKecO7/ETRnhnE50gqwAqfpbGPZFj4MYa4XxK1ukBg3R63QmKuE5uurOiKmXiLzttuw==}
 
   astro-robots-txt@1.0.0:
     resolution: {integrity: sha512-6JQSLid4gMhoWjOm85UHLkgrw0+hHIjnJVIUqxjU2D6feKlVyYukMNYjH44ZDZBK1P8hNxd33PgWlHzCASvedA==}
@@ -3120,6 +3126,8 @@ snapshots:
   array-iterate@2.0.1: {}
 
   astring@1.8.6: {}
+
+  astro-google-fonts-optimizer@0.2.2: {}
 
   astro-robots-txt@1.0.0:
     dependencies:
