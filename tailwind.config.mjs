@@ -78,7 +78,7 @@ export default {
           maxWidth: "42em",
           padding: "0 2rem",
           margin: "0 auto",
-          minHeight: "calc(100dvh - 12rem)",
+          minHeight: "calc(100dvh - 8rem)",
         },
       };
       addUtilities(newUtilities, ["responsive", "hover"]);
