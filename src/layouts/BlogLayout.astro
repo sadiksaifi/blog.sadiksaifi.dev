@@ -11,7 +11,7 @@ type Props = CollectionEntry<"blog">["data"];
 const { title, description, tags, pubDate, updatedDate, image } = Astro.props;
 ---
 
-<RootLayout title={title} description={description}>
+<RootLayout title={title} description={description} image={image.src}>
   <div class="flex justify-between items-center mb-6">
     <Back />
     <div class="date text-muted-foreground flex items-center gap-2">
