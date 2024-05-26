@@ -12,17 +12,17 @@ const { title, description, tags, pubDate, updatedDate, image } = Astro.props;
 ---
 
 <RootLayout title={title} description={description} image={image.src}>
-  <div class="flex justify-between items-center mb-6">
+  <div class="flex justify-between items-start mb-6">
     <Back />
-    <div class="date text-muted-foreground flex items-center gap-2">
-      Published on <FormattedDate date={pubDate} />
-      {
-        updatedDate && (
-          <div class="last-updated-on">
-            Last updated on <FormattedDate date={updatedDate} />
-          </div>
-        )
-      }
+    <div class="date text-muted-foreground flex flex-col justify-center items-end gap-2">
+      <div>Published on <FormattedDate date={pubDate} /></div>
+      <!-- { -->
+      <!--   updatedDate && ( -->
+      <!--     <div class="last-updated-on text-xs"> -->
+      <!--       Last updated on <FormattedDate date={updatedDate} /> -->
+      <!--     </div> -->
+      <!--   ) -->
+      <!-- } -->
     </div>
   </div>
   <article>
