@@ -14,7 +14,10 @@ const posts = (await getCollection("blog")).sort(
   <section>
     <ul class="flex flex-col justify-center items-start gap-6">
       {
-        posts.map((post) => (
+        posts.sort(
+          (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+        )
+        .map((post) => (
           <li>
             <a href={`/${post.slug}/`}>
               <p class="text-muted-foreground text-sm my-1">
