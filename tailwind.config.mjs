@@ -76,7 +76,7 @@ export default {
         ".my-container": {
           width: "100%",
           maxWidth: "42em",
-          padding: "0 2rem",
+          padding: "2rem",
           margin: "0 auto",
           minHeight: "calc(100dvh - 8rem)",
         },

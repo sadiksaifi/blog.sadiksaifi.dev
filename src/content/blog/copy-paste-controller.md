@@ -3,7 +3,7 @@ title: 'Copy & Paste Controller'
 description: 'A browser extension that enables or disables copy and paste functionality on any webpage with a single click.'
 pubDate: 'Dec 16 2024'
 image: './images/copy-paste-controller.png'
-tags: ['copy', 'paste', 'copy-paste', 'chrome extension', 'safari extension']
+tags: ['chrome', 'safari', 'extension', 'copy', 'paste' ]
 ---
 
 A browser extension that enables or disables copy and paste functionality on any webpage with a single click.
@@ -95,14 +95,13 @@ Copy & Paste Controller is a browser extension that allows you to enable or disa
 
 Developed by Sadik Saifi, a passionate developer committed to user empowerment.
 
-- Website: [sadiksaifi.dev](https://www.sadiksaifi.dev)
+- GitHub: [Copy & Paste Controller](https://github.com/sadiksaifi/copy-paste-controller/)
+- Website: [www.sadiksaifi.dev](https://www.sadiksaifi.dev)
 - Contact: email@sadiksaifi.dev
 
 ## License
 
 GNU General Public License v3.0
-
----
 
 **Version**: 1.0.0  
 **Released**: December 16, 2024

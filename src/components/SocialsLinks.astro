@@ -7,7 +7,7 @@ type Props = HTMLAttributes<"div">;
 const { class: className, ...props } = Astro.props;
 ---
 
-<div class={cn("items-center gap-2 flex", className)}>
+<div class={cn("items-center gap-2 flex", className)} {...props}>
   <a href="https://x.com/thesadiksaifi" target="_blank">
     <span class="sr-only">Follow Sadik Saifi on X</span>
     <svg
